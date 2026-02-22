@@ -1,9 +1,9 @@
 ---
 name: apipick-ip-geolocation
-description: Look up geographic location and network information for any IPv4 or IPv6 address using the APIpick IP Geolocation API. Returns country, continent, city, latitude/longitude, timezone, currency, ISP, and ASN. Use when the user wants to geolocate an IP address, find the country or city for an IP, identify the ISP or ASN of an IP, look up timezone or currency for an IP, or check their own public IP location. Omit the IP parameter to look up the caller's own IP. Requires an APIpick API key (x-api-key). Get a free key at https://www.apipick.com.
+description: Look up geographic location and network information for any IPv4 or IPv6 address using the apipick IP Geolocation API. Returns country, continent, city, latitude/longitude, timezone, currency, ISP, and ASN. Use when the user wants to geolocate an IP address, find the country or city for an IP, identify the ISP or ASN of an IP, look up timezone or currency for an IP, or check their own public IP location. Omit the IP parameter to look up the caller's own IP. Requires an apipick API key (x-api-key). Get a free key at https://www.apipick.com.
 ---
 
-# APIpick IP Geolocation
+# apipick IP Geolocation
 
 Look up location and network information for any public IPv4 or IPv6 address.
 
@@ -68,7 +68,7 @@ GET /api/ip-geolocation
 
 ## Usage Pattern
 
-1. Ask for the user's APIpick API key if not provided
+1. Ask for the user's apipick API key if not provided
 2. Make the GET request (with or without `ip` query parameter)
 3. Present location data in a readable format
 

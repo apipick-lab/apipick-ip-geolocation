@@ -1,4 +1,4 @@
-# APIpick IP Geolocation - Full API Reference
+# apipick IP Geolocation - Full API Reference
 
 **Base URL:** `https://www.apipick.com`
 **Authentication:** All requests require `x-api-key: YOUR_API_KEY` header.
